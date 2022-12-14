@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #230312;
+}
+
+header{
+    width: 100%rem;
+    height: 5rem;
+    background-color: #34081c;
+
+}
+
+.ho{
+    margin-left: 50rem;
+}
+
+#containerCards{
+    color: white;
+}
+
+#title{
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#paragra{
+    width: 20rem;
+    margin-left: 30rem;
+    font-size: 0.7rem;
+    color: white;
+    text-align: center;
+}
+
+#seeker{
+    height: 1.5rem;
+    display: flex;    
+    margin: 2rem;
+    margin-left: 34rem;
+    border-radius: 3px;
+    border-color: orange;
+}
+
+.ho{
+    height: 2rem;
+    width: 4rem;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border-color: red;
+}
+
+.api{
+    color: white;
+    background: none;
+    background-color: none;
+    border: none;
+}
+
+.sek{
+    color: white;
+    background: none;
+    background-color: none;
+    border: none;
+}
+
+
+#img1{
+    width: 10rem;
+    margin-left: 18rem;
+    margin-top: -16rem;
+
+}
+
+#img2{
+    margin-left:51em;
+    width: 10rem;
+    margin-top: -10rem;
+    
+}
+
+#containerCards{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#first-from-above{
+    margin-left: 9rem;
+}
+
+::placeholder{
+    color: #230312;
+}
+#patra{
+    width: 16rem;
+    margin-left: 30rem;
+}
+
+.card{
+  margin: 2rem;
+  background: #8f8f89ba;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50px;
+}
+
+.card>.img{
+    height: 50%;
+    width: 50%;
+    border-radius: 30px;
+    border: 3px solid #230312;
+    box-shadow: 0 0 30px #230312;
+    margin-left: 3rem;
+    margin-top: 0.9rem;
+  }
+  
+  .card > .name{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #5b1736;
+  }
+
+  .filtro{
+    display: none;
+  }
